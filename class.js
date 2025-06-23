@@ -1,3 +1,12 @@
+// DOM Element id
+
+const makeinfor = document.getElementById("makeinfor");
+const yearinfor = document.getElementById("yearinfor");
+const reset = document.getElementById("reset");
+const submit = document.getElementById("submit");
+const input = document.getElementById("input");
+
+// the calss
 class car {
     //the car class constructor
     constructor(make,year) {
@@ -31,13 +40,15 @@ class car {
         return this._newyear;
     }
 
-    get allinfor(){
-        return `the make is ${this._newmake} & the year ${this._newyear}` 
-    }
+    // get allinfor(){
+    //     return `the make is ${this._newmake} & the year ${this._newyear}` 
+    // }
 }
 
-const car1 = new car("bmw",1999);
-const car2 = new car("benz",2000);
+// the submit funtion
+submit.onclick = () =>{
+}
 
-console.log(car1.allinfor)
-console.log(car2.allinfor)
+// the submit funtion
+reset.onclick = () =>{
+}
