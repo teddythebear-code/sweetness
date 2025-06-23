@@ -27,7 +27,7 @@ class car {
         return this._newmake;
     }
 
-     //the seting and geting for the car year class
+     //the setter and getter for the car year class
     set year(newyear){
         if (typeof newyear === 'number' && newyear >= 1886 ) {
              newyear = newyear.toFixed();
